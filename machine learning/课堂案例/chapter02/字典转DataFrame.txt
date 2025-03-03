@@ -1,0 +1,12 @@
+1.导入pandas库
+     import pandas as pd
+2.用字典储存学生的信息
+    data = {"Age": [14, 33], "Height": [156, 170]}
+3.字典数据转成DataFrame
+    data_frame = pd.DataFrame(data)
+4.查看数据集，显示前面两个样本
+    data_frame.head(2)
+输出结果：
+   Age	Height
+0	14	156
+1	33	170
